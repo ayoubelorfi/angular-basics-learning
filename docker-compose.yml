@@ -1,0 +1,8 @@
+
+    node:
+        build: .
+        ports:
+            - "4201:4201"
+        volumes:
+            - .:/usr/src/app
+        command: yarn run start
