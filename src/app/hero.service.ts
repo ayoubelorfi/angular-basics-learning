@@ -95,6 +95,10 @@ export class HeroService {
     );
   }
 
+  showmessage(message: string) {
+    this.log(message);
+  }
+
   /**
    * Handle Http operation that failed.
    * Let the app continue.
@@ -119,4 +123,5 @@ export class HeroService {
   private log(message: string) {
     this.messageService.add(`HeroService: ${message}`);
   }
+
 }
