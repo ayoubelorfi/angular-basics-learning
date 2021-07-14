@@ -1,27 +1,30 @@
-# AngularProject
+Tour of Heroes app and tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+GETTING STARTED
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In this tutorial, you build your own application from the ground up, providing experience with the typical development process, as well as an introduction to basic app-design concepts, tools, and terminology.
 
-## Code scaffolding
+If you're completely new to Angular, you might want to try the Try it now quick-start application first. It is based on a ready-made partially-completed project, which you can examine and modify in the StackBlitz interactive development environment, where you can see the results in real time.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The "Try it" tutorial covers the same major topics—components, template syntax, routing, services, and accessing data using HTTP—in a condensed format, following the most current best practices.
 
-## Build
+This Tour of Heroes tutorial shows you how to set up your local development environment and develop an application using the Angular CLI tool, and provides an introduction to the fundamentals of Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The Tour of Heroes application that you build helps a staffing agency manage its stable of heroes. The application has many of the features you'd expect to find in any data-driven application. The finished application acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
 
-## Running unit tests
+You will find references to and expansions of this application domain in many of the examples used throughout the Angular documentation, but you don't necessarily need to work through this tutorial to understand those examples.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+By the end of this tutorial you will be able to do the following:
 
-## Running end-to-end tests
+    Use built-in Angular directives to show and hide elements and display lists of hero data.
+    Create Angular components to display hero details and show an array of heroes.
+    Use one-way data binding for read-only data.
+    Add editable fields to update a model with two-way data binding.
+    Bind component methods to user events, like keystrokes and clicks.
+    Enable users to select a hero from a master list and edit that hero in the details view.
+    Format data with pipes.
+    Create a shared service to assemble the heroes.
+    Use routing to navigate among different views and their components.
+    You'll learn enough Angular to get started and gain confidence that Angular can do whatever you need it to do.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
